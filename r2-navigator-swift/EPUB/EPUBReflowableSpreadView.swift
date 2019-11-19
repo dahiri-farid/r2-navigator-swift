@@ -23,7 +23,7 @@ final class EPUBReflowableSpreadView: EPUBSpreadView {
 
     override func setupWebView() {
         super.setupWebView()
-        scrollView.bounces = false
+        scrollView.bounces = true
         scrollView.isPagingEnabled = !isScrollEnabled
         
         webView.translatesAutoresizingMaskIntoConstraints = false
